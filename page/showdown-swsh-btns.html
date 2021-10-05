@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SwSh Inspired Battle Buttons for Pokemon Showdown - edgestyles</title>
+    <link type="text/css" rel="stylesheet" href="../index.css"/>
+    <link rel="icon" href="../favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <ul class="navbar">
+    <li class="navbar-li"><a href="../index.html" class="navbar-li-a">Home</a></li>
+    <li class="navbar-li"><a href="../glimesh.html" class="navbar-li-a">Glimesh</a></li>
+    <li class="navbar-li"><a href="../showdown.html" class="navbar-li-a">Showdown</a></li>
+    <li class="navbar-li"><a href="../help.html" class="navbar-li-a">Help!</a></li>
+    <li class="navbar-li"><a href="../about.html" class="navbar-li-a">About</a></li>
+    <img src="https://i.imgur.com/QWZ92W7.png" class="navbar-img">
+  </ul>
+  <center>
+  <div class="page-img-div">
+  <!-- Slideshow container -->
+<div class="slideshow-container">
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <a href="../images/showdown-swsh-btns/1-l.jpg" target="_blank"><img src="../images/showdown-swsh-btns/1-l.jpg" style="width:100%"></a>
+    <div class="img-desc"></div>
+  </div>
+  <div class="mySlides fade">
+    <a href="../images/showdown-swsh-btns/1-d.jpg" target="_blank"><img src="../images/showdown-swsh-btns/1-d.jpg" style="width:100%"></a>
+    <div class="img-desc"></div>
+  </div>
+  <div class="mySlides fade">
+    <a href="../images/showdown-swsh-btns/2-l.jpg" target="_blank"><img src="../images/showdown-swsh-btns/2-l.jpg" style="width:100%"></a>
+    <div class="img-desc"></div>
+  </div>
+  <div class="mySlides fade">
+    <a href="../images/showdown-swsh-btns/2-d.jpg" target="_blank"><img src="../images/showdown-swsh-btns/2-d.jpg" style="width:100%"></a>
+    <div class="img-desc"></div>
+  </div>
+  <div class="mySlides fade">
+    <a href="../images/showdown-swsh-btns/3-l.jpg" target="_blank"><img src="../images/showdown-swsh-btns/3-l.jpg" style="width:100%"></a>
+    <div class="img-desc"></div>
+  </div>
+  <div class="mySlides fade">
+    <a href="../images/showdown-swsh-btns/3-d.jpg" target="_blank"><img src="../images/showdown-swsh-btns/3-d.jpg" style="width:100%"></a>
+    <div class="img-desc"></div>
+  </div>
+  <div class="mySlides fade">
+    <a href="../images/showdown-swsh-btns/4-l.jpg" target="_blank"><img src="../images/showdown-swsh-btns/4-l.jpg" style="width:100%"></a>
+    <div class="img-desc"></div>
+  </div>
+  <div class="mySlides fade">
+    <a href="../images/showdown-swsh-btns/4-d.jpg" target="_blank"><img src="../images/showdown-swsh-btns/4-d.jpg" style="width:100%"></a>
+    <div class="img-desc"></div>
+  </div>
+
+</div>
+<br>
+<!-- The dots/circles --><center>
+<div style="text-align:center" class="vline">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+</div></center>
+</div>
+<div class="page-desc-div">
+  <span class="page-desc-div-title"><span class="page-desc-div-title-text">SwSh Inspired Buttons</span></span>
+  <span class="page-desc-div-link">For use on <a href="https://play.pokemonshowdown.com/" class="a">Pokemon Showdown</a></span>
+  <span class="page-desc-desc">Sword/Shield colored battle buttons for <a href="https://play.pokemonshowdown.com/" class="a">Pokemon Showdown</a>!
+
+
+    Decided to make new battle buttons to include with all of my <a href="../showdown.html" class="a">Showdown</a> css.
+    Mostly because I didn't backup my old ones...
+    I miss my old ones :[
+
+    Remember kids, backup important data...
+
+
+    <span class="">Last Updated: <span style="color: #9999ff;">8/26/20</span></span>
+    <a href="#updatelog" style="border-bottom: 1px solid #eee; padding-bottom: 1px">See update log</a>
+
+
+  </span><center>
+  <a href="../css/showdown-swsh-btns.html" target="_blank"><button class="page-desc-button">Get it now!</button></a>
+</center>
+</div></center>
+<center>
+<div class="page-updatelog" id="updatelog"><center>
+  <span class="page-updatelog-title">What's been updated</span>
+  <div class="page-updatelog-box">
+      <!--new update--><span style="color: #9999ff;">09/02/20</span>
+      Added styling for dragon type move buttons...yes I forgot it...
+
+      <!--new update-->
+  </div>
+</div></center>
+</div>
+</center>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+</html>

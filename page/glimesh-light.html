@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Light Theme for Glimesh.tv - edgestyles</title>
+    <link type="text/css" rel="stylesheet" href="../index.css"/>
+    <link rel="icon" href="../favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <ul class="navbar">
+    <li class="navbar-li"><a href="../index.html" class="navbar-li-a">Home</a></li>
+    <li class="navbar-li"><a href="../glimesh.html" class="navbar-li-a">Glimesh</a></li>
+    <li class="navbar-li"><a href="../showdown.html" class="navbar-li-a">Showdown</a></li>
+    <li class="navbar-li"><a href="../help.html" class="navbar-li-a">Help!</a></li>
+    <li class="navbar-li"><a href="../about.html" class="navbar-li-a">About</a></li>
+    <img src="https://i.imgur.com/QWZ92W7.png" class="navbar-img">
+  </ul>
+  <center>
+  <div class="page-img-div">
+  <!-- Slideshow container -->
+<div class="slideshow-container">
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <a href="../images/glimesh-light/1.jpg" target="_blank"><img src="../images/glimesh-light/1.jpg" style="width:100%"></a>
+    <div class="img-desc">Homepage</div>
+  </div>
+  <div class="mySlides fade">
+    <a href="../images/glimesh-light/2.jpg" target="_blank"><img src="../images/glimesh-light/2.jpg" style="width:100%"></a>
+    <div class="img-desc">Stream View</div>
+  </div>
+  <div class="mySlides fade">
+    <a href="../images/glimesh-light/3.jpg" target="_blank"><img src="../images/glimesh-light/3.jpg" style="width:100%"></a>
+    <div class="img-desc">Registeration/SignIn</div>
+  </div>
+  <div class="mySlides fade">
+    <a href="../images/glimesh-light/4.jpg" target="_blank"><img src="../images/glimesh-light/4.jpg" style="width:100%"></a>
+    <div class="img-desc">Profile</div>
+  </div>
+  <div class="mySlides fade">
+    <a href="../images/glimesh-light/5.jpg" target="_blank"><img src="../images/glimesh-light/5.jpg" style="width:100%"></a>
+    <div class="img-desc">Profile Settings</div>
+  </div>
+</div>
+<br>
+<!-- The dots/circles --><center>
+<div style="text-align:center" class="vline">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div></center>
+</div>
+<div class="page-desc-div">
+  <span class="page-desc-div-title"><span class="page-desc-div-title-text">Light Mode</span></span>
+  <span class="page-desc-div-link">For use on <a href="https://glimesh.tv/" class="a">Glimesh</a></span>
+  <span class="page-desc-desc">A Light Theme for <a href="https://glimesh.tv/" class="a">Glimesh</a> since they don't have one <i>yet</i>.
+
+
+    Yet being the keyword there. When they implement one I'll probably stop updating this...unless theirs suck.
+
+
+    <span class="">Last Updated: <span style="color: #9999ff;">11/09/20</span></span>
+    <a href="#updatelog" style="border-bottom: 1px solid #eee; padding-bottom: 1px">See change log</a>
+
+
+  </span><center>
+  <a href="../css/glimesh-light.html" target="_blank"><button class="page-desc-button">Get it now!</button></a>
+</center>
+</div></center>
+<center>
+<div class="page-updatelog" id="updatelog"><center>
+  <span class="page-updatelog-title">What's been updated</span>
+  <div class="page-updatelog-box">
+    <!--new update--><span style="color: #9999ff;">11/09/20</span>
+    ...a lot of things were added/fixed. didnt really update this or kept a log of what i changed...oops
+
+      <!--new update--><span style="color: #9999ff;">09/17/20</span>
+      Fixed wrong button focus colors...
+      Added new css for tables
+      Changed profile dropdown menu text color so its darker
+
+      <!--new update--><span style="color: #9999ff;">08/29/20</span>
+      Fixed stream preview? boxes? w/e <a href="https://i.imgur.com/JIa795s.png" class="a" target="_blank">this</a> is:
+        -Change stream title text from black to white
+        -Changed username background from black to white so you can actually read the name
+
+      <!--new update--><span style="color: #9999ff;">08/27/20</span>
+      Added new css stuff that was added:
+        -Profiles Side Buttons
+        -2FA code fitting in
+  </div>
+</div></center>
+</div>
+</center>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>edgestyles</title>
+    <link type="text/css" rel="stylesheet" href="../index.css"/>
+    <link rel="icon" href="../favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body class="body-paste"><pre>/* FONT NEEDED FOR THIS:
+ * https://www.dafont.com/pkmn-rbygsc.font
+ * 
+ * why dont link to it via webpage? cause im an idiot and idk how lol
+ */
+div {
+    background: rgba(0, 0, 0, 0) !important;
+    border-radius: 0px !important;
+}
+body {
+    background: rgba(0, 0, 0, .45);
+      font-family: "PKMN RBYGSC" !important;
+
+}
+#chat .chat-messages .bubble {
+    background: url('https://i.imgur.com/RB5fZus.png') #fff !important;
+    border-radius: 0px !important;
+    align-self: flex-end !important;
+    color: #111;
+}
+#chat .chat-messages {
+    background: rgba(0, 0, 0, 0)
+}
+#chat .chat-messages .channel-header,
+#chat .chat-form {
+    visibility: hidden;
+    height: 0px !important;
+    max-height: 0px !important;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.text-color-link {
+    color: #111
+}
+.badge-primary {
+    background: blue;
+    border-radius: 0px;
+}
+.avatar-ring>img {
+    border: .13rem solid #111
+}
+.user-message a {
+    color: green;
+}
+#chat .chat-messages .bubble {
+    position: relative;
+    right: -375px;
+    background: blue;
+    -webkit-animation: slide 0.1s forwards;
+    -webkit-animation-delay: .1s;
+    animation: slide 0.1s forwards;
+    animation-delay: .1s;
+}
+
+@-webkit-keyframes slide {
+    100% { right: 0; }
+}
+
+@keyframes slide {
+    100% { right: 0; }
+}
+</pre>
+</body>
+</html>
