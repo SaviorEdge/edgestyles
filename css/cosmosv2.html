@@ -1,0 +1,1918 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>edgestyles</title>
+    <link type="text/css" rel="stylesheet" href="../index.css"/>
+    <link rel="icon" href="../favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body class="body-paste"><pre>@-moz-document domain("psim.us"), domain("play.pokemonshowdown.com") {
+/*
+*
+*   LIGHT MODE
+*
+*/
+
+body {
+    background: #222 url("https://i.imgur.com/UJGgJQL.png") bottom left no-repeat!important;
+    background-size: cover!important;
+}
+.pmbox a,
+a.ilink {
+    color: #bd550f;
+    text-decoration: none;
+}
+.pmbox a:hover,
+.userdetails a.ilink:hover,
+a.ilink:hover {
+    color: #bd550f;
+    text-decoration: underline;
+}
+a:visited,
+a.ilink.yours {
+    color: #4d4dff;
+}
+
+/*
+*   TOP BAR OF TABS?
+*/
+.maintabbarbottom {
+    background: #99b3ff;
+    border-color: #99b3ff;
+}
+
+.tabbar a.button {
+    background: #bdcdff;
+    box-shadow: none !important;
+    border-color: #99b3ff;
+    color: #4c5367;
+    text-shadow: none !Important;
+}
+.tabbar a.button:hover {
+    background: #b3c6ff;
+    box-shadow: none !important;
+    border-color: #99b3ff;
+    color: #4c5367;
+}
+.tabbar a.button.subtle-notifying {
+    color: #bd550f !important;
+}
+.fa-times-circle:before {
+    content: "\00d7";
+    font-size: 16px !Important;
+    padding-top: 2px;
+}
+.closebutton {
+    color: #555;
+}
+.closebutton:hover {
+    color: #981b1b;
+}
+.tabbar a.button.notifying {
+    background: #ffd7bd;
+    border-color: #ffb380;
+    color: #bd550f !Important;
+    text-shadow: none !important;
+}
+.tabbar a.button.notifying:hover {
+    background: #ffc299;
+    border-color: #ffb380;
+    color: #bd550f;
+}
+.button.cur,
+.button.cur:hover,
+.tabbar a.button.cur,
+.tabbar a.button.cur:hover {
+    background: #99b3ff !important;
+    border-color: #99b3ff !important;
+    color: #262d40 !important;
+    text-shadow: none !important
+}
+.tabbar .fa {
+    text-shadow: none !important;
+}
+.userbar button.icon {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0px;
+    width: 24px;
+    color: #bdcdff;
+}
+.userbar button.icon:hover {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0px;
+    color: #9999ff;
+}
+.fa.fa-user {
+    display: none;
+}
+.header {
+    background: rgba(5, 30, 100, 0.4) url('https://i.imgur.com/fSvSxVg.png') no-repeat !important;
+}
+.header .logo {
+    opacity: 0!important;
+}
+.maintabbar .overflow .button {
+    background: #bdcdff;
+    box-shadow: none !important;
+    border-color: #99b3ff;
+    color: #262d40;
+    text-shadow: none !Important;
+}
+.maintabbar .overflow .button:hover {
+    background: #b3c6ff;
+    border-color: #99b3ff;
+    box-shadow: none;
+    color: #262d40;
+}
+.userbar .username {
+    text-shadow: 0px 0px 2px #000;
+}
+/*
+*   SIDE BUTTONS THING
+*/
+.menugroup {
+    background: #1240;
+    border-radius: 0px;
+}
+.menugroup .button,
+.menugroup .select.formatselect, body .button.mainmenu1 {
+    background: #bdcdff!important;
+    box-shadow: none !important;
+    border-color: #99b3ff;
+    color: #262d40;
+    border-radius: 0px;
+    text-shadow: none;
+}
+.menugroup .button:hover,
+.menugroup .select.formatselect:hover, body .button.mainmenu1:hover {
+    background: #b3c6ff!important;
+    box-shadow: none !important;
+    border-color: #99b3ff;
+    color: #262d40;
+    border-radius: 0px;
+    text-shadow: none;
+    filter: drop-shadow(0px 0px 2px #000)
+}
+.menugroup .button:focused,
+.menugroup .select.formatselect:focused {
+    background: #2a2a2a !important;
+    border-color: #1a1a1a !important;
+    box-shadow: none;
+    color: #eee;
+    border-radius: 0px;
+    filter: drop-shadow(0px 0px 1px #333)
+}
+.mainmenuwrapper .menugroup .button.disabled,
+.mainmenuwrapper .menugroup .button.disabled:hover,
+.mainmenuwrapper .menugroup .button.disabled:active {
+    border-color: cyan !important;
+}
+.select:after {
+    color: #eee;
+}
+.menugroup .checkbox {
+    color: #eee
+}
+.menugroup .checkbox:hover {
+    background: transparent;
+    color: #bdcdff;
+}
+.menugroup .select {
+    background: #bdcdff;
+    box-shadow: none !important;
+    border-color: #99b3ff;
+    color: #262d40;
+    text-shadow: none !Important;
+}
+.menugroup .select:hover {
+    background: #b3c6ff;
+    box-shadow: none !important;
+    border-color: #99b3ff;
+    color: #262d40;
+    text-shadow: none !Important;
+}
+.select:after {
+    color: #262d40;
+}
+.select:disabled:after {
+    color: #b3bfe5;
+}
+.teamselect:disabled strong {
+    color: #b3bfe5;
+}
+.select:disabled {
+    background: rgba(190, 203, 244, .4) !important;
+    border-color: transparent !important;
+}
+.select:hover:disabled {
+    background: rgba(190, 203, 244, .4) !important;
+    border-color: transparent !important;
+}
+.menugroup .label {
+    margin-bottom: 4px;
+}
+
+/* side bottom links */
+.mainmenufooter a {
+    color: #ffc299;
+    text-decoration: none;
+}
+.mainmenufooter a:hover {
+    color: #ffc299;
+    text-decoration: underline;
+}
+
+.mainmenufooter a:visited {
+    color: #9f80ff;
+}
+/* pms, private museums */
+.minimizebutton {
+    color: #555 !important;
+    text-shadow: none !important
+}
+.minimizebutton:hover {
+    color: #333 !important;
+    text-shadow: none !important
+}
+.fa-minus-circle:before {
+    content: "\2212";
+    text-shadow: none !important
+}
+.pm-minimized .minimizebutton .fa-minus-circle:before {
+    content: "\002B";
+    text-shadow: none !important
+}
+.pm-window h3 {
+    background: rgba(189, 205, 255, .9);
+    color: #262d40;
+    border-color: #99b3ff;
+}
+.pm-window h3:hover {
+    background: rgba(179, 198, 255, .89);
+    color: #262d40;
+    border-color: #99b3ff;
+}
+.pm-log {
+    background: rgba(235, 235, 235, .9);
+    border-color: #99b3ff;
+    color: #111;
+}
+.pm-log .chat.mine {
+    background: rgba(120, 120, 120, .07);
+}
+.pm-window h3.pm-notifying {
+    background: #ffd7bd;
+    border-color: #ffb380;
+    color: #bd550f !Important;
+    text-shadow: none !important;
+}
+.pm-window h3.pm-notifying:hover {
+    background: #ffc299;
+    border-color: #ffb380;
+    color: #bd550f;
+}
+.pm-window.focused h3 {
+    background: #99b3ff;
+    border-color: #99b3ff;
+    color: #262d40;
+}
+.pm-window.focused .pm-log {
+    background: rgba(255, 255, 255, .9);
+    border-color: #99b3ff;
+    color: #000;
+}
+.pm-log-add {
+    border-color: #99b3ff;
+    background: #99b3ff;
+    color: #eee;
+}
+.pm-window.focused .pm-log-add {
+    border-color: #99b3ff;
+    background: #99b3ff;
+    color: #eee;
+}
+.pm-window .textbox {
+    background: #E6E9EB;
+    border-color: #d5dadd;
+    border-radius: 0px;
+    color: #111;
+    box-shadow: none;
+}
+.pm-window .textbox:focus {
+    box-shadow: none !Important;
+    background: #E6E9EB;
+    color: #000;
+    border-color: #4d79ff
+}
+.pm-window h3 .closebutton:hover + .minimizebutton.minimizebutton, .dark .pm-window h3 .closebutton:hover + .dark .minimizebutton.minimizebutto {
+    color: #333 !important;
+}
+.newsentry {
+    border-color: #99b3ff;
+}
+.userlist-minimized,
+.pm-buttonbar button {
+    background: #BDCDFF;
+    color: #493D45;
+    border-color: #99b3ff;
+}
+.userlist-minimized:hover,
+.pm-buttonbar button:hover {
+    background: #99b3ff;
+    color: #493D45;
+    border-color: #99b3ff;
+}
+.challenge {
+    background: #BDCDFF;
+    border-color: #99b3ff;
+    color: #493D45;
+}
+.challenge .select.formatselect,
+.challenge .select.teamselect {
+    background: #99b3ff !important;
+    border-color: transparent;
+    box-shadow: none;
+    color: #493D45;
+    border-radius: 0px;
+}
+.challenge .select.formatselect:hover,
+.challenge .select.teamselect:hover {
+    background: #99b3ff !important;
+    border-color: transparent;
+    box-shadow: none;
+    color: #493D45;
+    border-radius: 0px;
+    filter: drop-shadow(0px 0px 1px #000)
+}
+.challenge .checkbox {
+    color: #493D45
+}
+.challenge .select:disabled {
+    background: #cfdafc !important;
+}
+.challenge .teamselect:disabled strong {
+    color: #61515c
+}
+.challenge .checkbox:hover {
+    background: transparent;
+    color: #61515c;
+}
+.unread {
+    background: rgba(153, 153, 255, .2)
+}
+button[name="makeChallenge"],
+button[name="dismissChallenge"] {
+    background: transparent;
+    border: 1px solid #99b3ff;
+    color: #493d45
+}
+button[name="makeChallenge"]:hover,
+button[name="dismissChallenge"]:hover {
+    background: #99b3ff;
+    border: 1px solid #99b3ff;
+    color: #493d45;
+    filter: drop-shadow(0px 0px 1px #000)
+}
+/*
+*   BATTLE CSS because ???
+*/
+.battle-controls {
+    background: transparent !important;
+}
+.ps-room.ps-room-opaque {
+    background: rgba(204, 216, 255, .8);
+    border-color: #2a2a2a;
+}
+.battle-log {
+    background: rgba(255, 255, 255, .6);
+    border-color: #99b3ff;
+    color: #000;
+}
+.message-log h2 {
+    background: linear-gradient(to right, #99b3ff, #99b3ff, #99b3ff, #99b3ff, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent);
+    border-color: transparent;
+    color: #493d45;
+}
+.battle-log .chat.mine {
+    background: rgba(50, 50, 50, .03);
+}
+.battle-log .chat > em {
+    color: #000;
+}
+.chat > strong {
+    color: #493d45;
+}
+.message-log .rated strong {
+    background: #BDCDFF;
+    color: #493d45;
+}
+.battle-log-add {
+    border-color: #99b3ff;
+    background: #99b3ff;
+    color: #eee;
+}
+.battle-log-add .textbox {
+    background: #E6E9EB;
+    border-color: #d5dadd;
+    border-radius: 0px;
+    color: #111;
+    box-shadow: none;
+}
+.battle-log-add .textbox:focus {
+    box-shadow: none !Important;
+    background: #E6E9EB;
+    color: #000;
+    border-color: #4d79ff
+}
+.rightbar,
+.leftbar {
+    background: rgba(204, 216, 255, .5);
+    color: #493D45;
+    border-color: #99b3ff
+}
+.message-error {
+    color: #e60000
+}
+.battle-controls .button {
+    background: #BDCDFF;
+    border: 1px solid #99b3ff;
+    color: #493d45;
+    box-shadow: none;
+    border-radius: 0px;
+    text-shadow: none;
+}
+
+.battle-controls .button:hover,
+.battle-controls button:hover {
+    background: #99b3ff;
+}
+.timerbutton-on,
+.timerbutton-on:hover {
+    color: #ff3333 !important;
+}
+
+.rightbar .trainersprite::before {
+    content: attr(title);
+    display: block;
+    color: #493d45;
+    font-size: 10px;
+    margin-top: 140px;
+    margin-left: 10px !Important;
+    position: absolute;
+    font-weight: bold;
+}
+.leftbar .trainersprite::before {
+    content: attr(title);
+    display: block;
+    color: #493d45;
+    font-size: 10px;
+    margin-top: 140px;
+    margin-left: 10px !Important;
+    position: absolute;
+    font-weight: bold;
+    transform: scale(-1, 1);
+}
+.turn {
+    background: linear-gradient(to right, transparent, #BDCDFF, #BDCDFF, #BDCDFF, #BDCDFF, #BDCDFF, #BDCDFF, #BDCDFF, #BDCDFF, transparent);
+    color: #493d45;
+    border: none;
+}
+/*
+* Chat Stuff, includes userlist
+*/
+.userlist {
+    background: rgba(230, 230, 230, .9);
+    border-color: #99b3ff;
+}
+.userlist li {
+    border-color: #999 !important;
+}
+.userlist li em.group {
+    color: #1a53ff;
+}
+.userlist li button:hover {
+    background: rgba(30, 40, 50, .1);
+}
+.userlist-minimized .userlist-count {
+    background: rgba(230, 230, 230, .9);
+    color: #493d45;
+    border-color: #999!important;
+}
+.userlist-minimized .userlist-count:hover {
+    background: rgba(210, 210, 210, .85) !important;
+    color: #493d45!important;
+    border-color: #999!important;
+}
+.ps-room {
+    border-color: #99b3ff !important;
+}
+.chat-log .inner {
+    background: rgba(255, 255, 255, .2);
+}
+.chat-log-add {
+    border-color: #99b3ff;
+    background: #99b3ff;
+    color: #eee;
+}
+.chat-log-add .textbox {
+    background: #E6E9EB;
+    border-color: #d5dadd;
+    border-radius: 0px;
+    color: #111;
+    box-shadow: none;
+}
+.chat-log-add .textbox:focus {
+    box-shadow: none !Important;
+    background: #E6E9EB;
+    color: #000;
+    border-color: #4d79ff
+}
+
+.chat small {
+    color: rgb(26, 83, 255);
+}
+.greentext {
+    color: #328217;
+}
+.broadcast-blue {
+    background: #2d4052;
+    color: #dee6ed
+}
+.broadcast-green {
+    background: #2d522d;
+    color: #deedde
+}
+.broadcast-red {
+    background: #6d372c;
+    color: #f0dedb
+}
+.infobox {
+    border-color: #99b3ff;
+    padding-bottom: 2px !important;
+}
+/* roomlist stuff */
+.pad .button {
+    background: #BDCDFF;
+    box-shadow: none;
+    border-color: #99b3ff;
+    text-shadow: none !important;
+}
+.pad .button:hover {
+    background: #99b3ff;
+    box-shadow: none;
+    border-color: #99b3ff;
+    filter: drop-shadow(0px 0px 1px #000)
+}
+.roomlist h2,
+.roomlist h2 {
+    color: #493d45!important;
+    text-shadow: none!important;
+    font-weight: bold!important;
+}
+.roomlist a.ilink,
+.roomlist a.ilink {
+    background: rgba(189, 205, 255, 0.8) !important;
+    border-color: #99b3ff!important;
+    color: #493d45!important;
+    padding: 5px 8px 6px !important;
+    text-shadow: none !important;
+}
+.roomlist a.ilink:hover {
+    background: rgba(153, 179, 255, 0.95) !important;
+    color: #493d45!important;
+    text-shadow: none !important;
+}
+.roomcounters button {
+    background: #BDCDFF!important;
+    border-color: #99b3ff!important;
+    box-shadow: none!important;
+    color: #493d45;
+}
+.roomcounters button:hover {
+    background: #99b3ff!important;
+    border-color: #99b3ff!important;
+    box-shadow: none!important;
+    filter: drop-shadow(0px 0px 1px #000)
+}
+.roomcounters .battlecount {
+    margin-right: -20px !important;
+}
+.roomcounters .usercount {
+    margin-left: -20px !important;
+}
+
+/*popup*/
+.ps-popup {
+    background: rgba(189, 205, 255, .98);
+    border-color: #99b3ff;
+    border-radius: 0px;
+    color: #493d45;
+    box-shadow: none;
+}
+.ps-popup button,
+.ps-popup .optlabel select {
+    background: #BDCDFF;
+    color: #493d45;
+    box-shadow: none;
+    border: 1px solid #99b3ff;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+.ps-popup button:hover,
+.ps-popup .optlabel select:hover {
+    background: #99b3ff;
+    color: #493d45;
+    box-shadow: none;
+    border: 1px solid #99b3ff;
+    filter: drop-shadow(0px 0px 1px #000)
+}
+.ps-popup .textbox:hover {
+    border-color: #999;
+}
+.ps-popup .textbox {
+    background: #E6E9EB;
+    border-color: #d5dadd;
+    border-radius: 0px;
+    color: #111;
+    box-shadow: none;
+}
+.ps-popup .textbox:focus,
+.ps-popup .textbox:active {
+    box-shadow: none !Important;
+    background: #E6E9EB;
+    color: #000;
+    border-color: #4d79ff
+}
+.ps-popup li button {
+    background: transparent;
+    border: none;
+    border-bottom: 0px solid #444;
+    border-radius: 0px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    color: #493d45;
+}
+.ps-popup li button:hover {
+    background: #99b3ff;
+    border: none;
+    border-bottom: 0px solid #444;
+    border-radius: 0px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    color: #493d45;
+}
+.ps-popup .popupmenu h3 {
+    color: #bd550f;
+}
+.ps-popup .sel,
+.ps-popup .sel:hover {
+    background: #99b3ff !important;
+    color: #493d45 !important;
+    border: none;
+    border-bottom: 1px solid inherit;
+    border-radius: 0px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+.popupmenu .folderButton,
+.popupmenu .folderButtonOpen,
+.popupmenu button.button,
+.popupmenu button.folderButtonOpen {
+    background: #BDCDFF;
+    color: #493d45;
+    box-shadow: none;
+    border: 1px solid #99b3ff;
+    text-shadow: none;
+}
+.popupmenu .folderButton:hover,
+.popupmenu .folderButtonOpen:hover,
+.popupmenu button.button:hover,
+.popupmenu button.folderButtonOpen:hover {
+    background: #99b3ff;
+    color: #493d45;
+    box-shadow: none;
+    border: 1px solid #99b3ff;
+}
+.ps-popup input[type=range] {
+    height: 26px;
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 100%;
+}
+.ps-popup input[type=range]:focus {
+    outline: none;
+}
+.ps-popup input[type=range]::-webkit-slider-runnable-track,
+.ps-popup input[type=range]::-webkit-slider-runnable-track:hover {
+    width: 100% !important;
+    height: 6px !important;
+    cursor: pointer !important;
+    box-shadow: none !important;
+    background: whitesmoke !important;
+    border-radius: 14px !important;
+    border: 0px solid #99b3ff !important;
+}
+.ps-popup input[type=range]::-webkit-slider-thumb {
+    box-shadow: 0px 0px 0px #000000 !important;
+    border: 1px solid #99b3ff !important;
+    height: 12px !important;
+    width: 20px !important;
+    border-radius: 12px !important;
+    background: #99b3ff !important;
+    cursor: pointer !important;
+    -webkit-appearance: none !important;
+    margin-top: -3px !important;
+}
+.ps-popup input[type=range]::-webkit-slider-thumb:hover {
+    box-shadow: 0px 0px 0px #000000 !important;
+    border: 1px solid #99b3ff !important;
+    height: 12px !important;
+    width: 20px !important;
+    border-radius: 12px !important;
+    background: #99b3ff !important;
+    cursor: pointer !important;
+    -webkit-appearance: none !important;
+    margin-top: -3px;
+    filter: drop-shadow(0px 0px 1px #000)
+}
+.ps-popup strong a {
+    color: #bd550f !important;
+    text-decoration: none;
+}
+.ps-popup strong a:hover {
+    color: #bd550f !important;
+    text-decoration: underline;
+}
+.ps-popup .bglist button {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+.ps-popup .bglist strong {
+    background: #222 url("https://i.imgur.com/QHaX9wp.png") bottom left no-repeat!important;
+    background-size: cover!important;
+    padding-top: 22px !important;
+    padding-bottom: 12px !important;
+    color: transparent !important;
+}
+.ps-popup button, .ps-popup .optlabel select {
+    background-image: no-repeat !important
+}
+/*
+*   TEAMBUILDER
+*/
+.teampane .button,
+.teampane .team,
+.select.formatselect.teambuilderformatselect {
+    background: #222 !important;
+    border-color: transparent;
+    box-shadow: none;
+    color: #eee;
+    border-radius: 0px;
+}
+.teampane .team {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.teampane .button:hover,
+.teampane .team:hover,
+.select.formatselect.teambuilderformatselect:hover {
+    background: #2a2a2a !important;
+    border-color: transparent;
+    box-shadow: none;
+    color: #eee;
+    border-radius: 0px;
+    filter: drop-shadow(0px 0px 1px #333)
+}
+.teampane .button:focused,
+.teampane .team:focused,
+.select.formatselect.teambuilderformatselect:focused {
+    background: #2a2a2a !important;
+    border-color: #1a1a1a !important;
+    box-shadow: none;
+    color: #eee;
+    border-radius: 0px;
+    filter: drop-shadow(0px 0px 1px #333)
+}
+.setchart,
+.setchart-nickname {
+    background: #222;
+    border-color: #444;
+    border-radius: 0px;
+}
+.setchart .textbox.chartinput,
+.setchart-nickname .textbox {
+    background: #222;
+    border-color: #222;
+    border-bottom: 1px solid #666;
+    border-radius: 0px;
+}
+.setchart .textbox.chartinput:focus,
+.setchart-nickname .textbox:focus {
+    background: #333;
+    border-color: #333;
+    border-bottom: 1px solid #666;
+    border-radius: 0px;
+}
+.textbox:focus {
+    box-shadow: none;
+}
+.textbox.setdetails {
+    background: #222;
+    border-color: #222 !important;
+}
+.textbox.setstats {
+    background: #222;
+    border-color: #222;
+}
+.setchart label,
+.setchart-nickname label,
+.setchart .statrow-head em {
+    color: #9999ff;
+    text-shadow: none;
+}
+.utilichart h3,
+.dexentry h3,
+.resultheader h3 {
+    background: #222;
+    color: #9999ff;
+    border-color: #333;
+    text-shadow: none;
+    box-shadow: none;
+}
+.utilichart .sortrow {
+    background: #222;
+    border-color: #333;
+}
+.utilichart .sortcol {
+    color: #9999ff;
+}
+.utilichart .sortcol:hover {
+    background: #333;
+}
+.utilichart .sortcol.numsortcol.cur,
+.utilichart .sortcol.numsortcol.cur:hover,
+.utilichart .sortcol.cur {
+    background: #444;
+}
+.teambuilder-results .result a.cur {
+    background: rgba(50, 50, 50, .4);
+    border-color: #333;
+}
+.teambuilder-results .result a:hover,
+.teambuilder-results .result a.cur:hover {
+    background: rgba(78, 78, 78, .4);
+    border-color: #333;
+}
+.teambar button {
+    background: #222;
+    border-color: #333;
+    color: #eee;
+}
+.teambar button:disabled,
+.teambar button:disabled:hover,
+.teambar button:disabled:active,
+.teambar button:hover {
+    background: #333;
+    color: #eee;
+    border-color: #333;
+}
+.teamwrapper .pad button {
+    background: #222;
+    box-shadow: none;
+    border: 1px solid #2a2a2a;
+    color: #eee;
+}
+.fa.fa-chevron-left {
+    text-shadow: none !important;
+}
+.textbox.teamnameedit,
+.textbox.searchinput {
+    background: #333;
+    border-color: #1a1a1a;
+    border-radius: 0px;
+    color: #eee;
+}
+.textbox.teamnameedit:focus,
+.textbox.searchinput:focus {
+    box-shadow: none !Important;
+    background: #3a3a3a;
+}
+.folderlist .foldersep:before,
+.folderlistafter:before,
+.folderlistbefore:before,
+.folderpane h3,
+.folder .selectFolder,
+.folderhack1,
+.folderhack2 {
+    background: #111;
+    color: #ccc;
+    border-color: #333;
+}
+
+.megaevo {
+    width: 120px !Important;
+    background: none !Important;
+    color: #eee !Important;
+    border: none !Important;
+}
+.megaevo:hover {
+    width: 120px !Important;
+    background: none !Important;
+    color: #eee !Important;
+    border: none !Important;
+}
+.switchmenu button {
+    background: white;
+    box-shadow: none !Important;
+    border-radius: 0px;
+    border: 1px solid #e6e6e6;
+    filter: drop-shadow(0px 0px 1px #111);
+}
+.switchmenu button:hover {
+    background: #e6e6e6;
+    box-shadow: none !Important;
+    border-radius: 0px;
+    border: 1px solid #e6e6e6;
+    filter: drop-shadow(0px 0px 2px #111);
+}
+.switchmenu button {
+    background: #333;
+    box-shadow: none !Important;
+    text-shadow: none;
+    color: #eee;
+    border-radius: 0px;
+    border: 1px solid #222;
+    filter: drop-shadow(0px 0px 1px #111);
+}
+.switchmenu button:hover {
+    background: #222;
+    box-shadow: none !Important;
+    text-shadow: none;
+    color: #eee;
+    border-radius: 0px;
+    border: 1px solid #222;
+    filter: drop-shadow(0px 0px 1px #111);
+}
+
+.switchmenu button.disabled,
+.switchmenu button:disabled,
+.movemenu button:disabled,
+.switchmenu button.disabled:hover,
+.switchmenu button:disabled:hover,
+.movemenu button:disabled:hover {
+    filter: drop-shadow(0px 0px 0px #111);
+}
+.switchmenu button.disabled {
+    color: #d9d9d9 !important;
+    background: #444 !important;
+    border: 1px solid #555 !important;
+}
+/*
+*
+*   DARK MODE
+*
+*/
+.dark body {
+    background: #222 url("https://i.imgur.com/QHaX9wp.png") bottom left no-repeat!important;
+    background-size: cover!important;
+}
+.dark .pmbox a,
+.dark a.ilink {
+    color: #9999ff;
+    text-decoration: none;
+}
+.dark .pmbox a:hover,
+.dark .userdetails a.ilink:hover {
+    color: #9999ff;
+    text-decoration: underline;
+}
+.dark a:visited,
+.dark a.ilink.yours {
+    color: #b399ff !important;
+}
+
+/*
+*   TOP BAR OF TABS?
+*/
+.dark .maintabbarbottom {
+    background: #333;
+    border-color: #1a1a1a;
+}
+
+.dark .tabbar a.button {
+    background: #222;
+    box-shadow: none !important;
+    border-color: #1a1a1a;
+    color: #ccc;
+    text-shadow: none !Important;
+}
+.dark .tabbar a.button:hover {
+    background: #1a1a1a;
+    box-shadow: none !important;
+    border-color: #1a1a1a;
+    color: #ccc;
+}
+.dark .tabbar a.button.subtle-notifying {
+    color: #9999ff !important;
+}
+.dark .fa-times-circle:before {
+    content: "\00d7";
+    font-size: 16px !Important;
+}
+.dark .closebutton {
+    color: #888;
+}
+.dark .closebutton:hover {
+    color: #AF3B3B;
+}
+.dark .tabbar a.button.notifying {
+    background: #9999ff;
+    border-color: #1a1a1a;
+    color: #1a1a1a !Important;
+    text-shadow: none !important;
+}
+.dark .tabbar a.button.notifying:hover {
+    background: #8888ff;
+    border-color: #1a1a1a;
+    color: #1a1a1a;
+}
+.dark .button.cur,
+.dark .button.cur:hover,
+.dark .tabbar a.button.cur,
+.dark .tabbar a.button.cur:hover {
+    background: #333 !important;
+    border-color: #1a1a1a !important;
+    color: #e6e6e6 !important;
+}
+.dark .userbar button.icon {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0px;
+    width: 24px;
+    color: #eee;
+}
+.dark .userbar button.icon:hover {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0px;
+    color: #9999ff;
+}
+.dark .fa.fa-user {
+    display: none;
+}
+.dark .header {
+    background: rgba(0, 0, 0, 0.4) !important;
+}
+.dark .header .logo {
+    opacity: 0!important;
+}
+.dark .maintabbar .overflow .button {
+    background: #333;
+    border-color: #1a1a1a;
+    box-shadow: none;
+}
+.dark .maintabbar .overflow .button:hover {
+    background: #3a3A3A;
+    border-color: #1a1a1a;
+    box-shadow: none;
+}
+/*
+*   SIDE BUTTONS THING
+*/
+.dark .menugroup {
+    background: #2226;
+    border-radius: 0px;
+}
+.dark .menugroup .button,
+.dark .menugroup .select.formatselect {
+    background: #222 !important;
+    border-color: transparent;
+    box-shadow: none;
+    color: #eee;
+    border-radius: 0px;
+}
+.dark .menugroup .button:hover,
+.dark .menugroup .select.formatselect:hover {
+    background: #2a2a2a !important;
+    border-color: transparent;
+    box-shadow: none;
+    color: #eee;
+    border-radius: 0px;
+    filter: drop-shadow(0px 0px 1px #333)
+}
+.dark .menugroup .button:focused,
+.dark .menugroup .select.formatselect:focused {
+    background: #2a2a2a !important;
+    border-color: #1a1a1a !important;
+    box-shadow: none;
+    color: #eee;
+    border-radius: 0px;
+    filter: drop-shadow(0px 0px 1px #333)
+}
+.dark .mainmenuwrapper .menugroup .button.disabled,
+.dark .mainmenuwrapper .menugroup .button.disabled:hover,
+.dark .mainmenuwrapper .menugroup .button.disabled:active {
+    border-color: #1a1a1a !important;
+}
+.dark .select:after {
+    color: #eee;
+}
+.dark .select:disabled {
+    background: rgba(53, 53, 53, .4);
+    border-color: transparent !important;
+}
+.dark .teamselect:disabled strong {
+    color: #ccc;
+}
+.dark .menugroup .checkbox {
+    color: #ccc
+}
+.dark .menugroup .checkbox:hover {
+    background: transparent;
+    color: #9999ff;
+}
+.dark .menugroup .select {
+    background: #222;
+    color: #eee;
+    border-color: transparent;
+}
+.dark .menugroup .select:hover {
+    background: #2a2a2a;
+    color: #eee;
+    border-color: transparent;
+}
+.dark .menugroup .label {
+    margin-bottom: 4px;
+}
+.dark .menugroup .roomlist a.ilink {
+    background: rgba(23, 23, 23, .6) !important;
+    border-color: #333;
+    color: #eee;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.dark .menugroup .roomlist a.ilink:hover {
+    background: rgba(33, 33, 33, .6) !important;
+    border-color: #333;
+    color: #eee;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.dark .battleform button {
+    background: #222;
+    color: #eee;
+    border: 1px solid #1a1a1a;
+    padding: 4px 4px 4px 4px;
+}
+.dark .battleform button:hover {
+    background: #2a2a2a;
+    color: #eee;
+    border: 1px solid #1a1a1a;
+    filter: drop-shadow(0px 0px 1px #333)
+}
+/* side bottom links */
+.dark .mainmenufooter a {
+    color: #9999ff;
+    text-decoration: none;
+}
+.dark .mainmenufooter a:hover {
+    color: #9999ff;
+    text-decoration: underline;
+}
+
+.dark .mainmenufooter a:visited {
+    color: #7676ff;
+}
+
+/* pms, private museums */
+.dark .minimizebutton {
+    color: #888 !important;
+}
+.dark .minimizebutton:hover {
+    color: #666 !important;
+}
+.dark .fa-minus-circle:before {
+    content: "\2212";
+}
+.pm-minimized .minimizebutton .fa-minus-circle:before {
+    content: "\002B";
+}
+.dark .pm-window h3 {
+    background: rgba(34, 34, 34, .9);
+    color: #eee;
+    border-color: #1a1a1a;
+}
+.dark .pm-log {
+    background: rgba(18, 18, 18, .85);
+    border-color: #1a1a1a;
+    color: #eee;
+}
+.dark .pm-log .chat.mine {
+    background: rgba(150, 150, 150, .03);
+}
+.dark .pm-window h3.pm-notifying {
+    background: #9999ff;
+    color: #1a1a1a;
+}
+.dark .pm-window.focused h3 {
+    background: #2a2a2a;
+    color: #eee;
+    border-color: #1a1a1a;
+}
+.dark .pm-window.focused .pm-log {
+    border-color: #1a1a1a;
+    background: rgba(22, 22, 22, .85);
+    color: #eee;
+}
+.dark .pm-log-add {
+    border-color: #1a1a1a;
+    background: #222;
+    color: #eee;
+}
+.dark .pm-window.focused .pm-log-add {
+    border-color: #1a1a1a;
+    background: #222;
+    color: #eee;
+}
+.dark .pm-window .textbox {
+    background: #333;
+    border-color: #1a1a1a;
+    border-radius: 0px;
+    color: #eee;
+}
+.dark .pm-window .textbox:focus {
+    box-shadow: none !Important;
+    background: #3a3a3a;
+}
+.dark .newsentry {
+    border-color: #9999ff;
+}
+.dark .fa {
+    text-shadow: 1px 1px #222 !important;
+}
+.dark .userlist-minimized,
+.dark .pm-buttonbar button {
+    background: #333;
+    color: #ccc;
+    border-color: #555;
+}
+.dark .userlist-minimized:hover,
+.dark .pm-buttonbar button:hover {
+    background: #444;
+    color: #ccc;
+    border-color: #555;
+}
+.dark .challenge {
+    background: #111;
+    border-color: #1a1a1a;
+    color: #eee;
+}
+.dark .challenge .select.formatselect,
+.dark .challenge .select.teamselect {
+    background: #222 !important;
+    border-color: transparent;
+    box-shadow: none;
+    color: #eee;
+    border-radius: 0px;
+}
+.dark .challenge .select.formatselect:hover {
+    background: #2a2a2a !important;
+    border-color: transparent;
+    box-shadow: none;
+    color: #eee;
+    border-radius: 0px;
+    filter: drop-shadow(0px 0px 1px #333)
+}
+.dark .challenge .checkbox {
+    color: #ccc
+}
+.dark .challenge .checkbox:hover {
+    background: transparent;
+    color: #9999ff;
+}
+.dark .unread {
+    background: rgba(153, 153, 255, .2)
+}
+/*
+*   BATTLE CSS because ???
+*/
+.dark .battle-controls {
+    background: transparent;
+}
+.dark .ps-room.ps-room-opaque {
+    background: rgba(12, 12, 12, .9);
+    border-color: #2a2a2a;
+}
+.dark .battle-log {
+    background: rgba(24, 24, 24, .7);
+    border-color: #1a1a1a;
+    color: #eee;
+}
+.dark .message-log h2 {
+    background: linear-gradient(to right, #222, #222, #222, #222, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent);
+    border-color: transparent
+}
+.dark .battle-log .chat.mine {
+    background: rgba(150, 150, 150, .03);
+}
+.dark .battle-log .chat > em {
+    color: #eee;
+}
+.dark .chat > strong {
+    color: #9999ff;
+}
+.dark .message-log .rated strong {
+    background: #9999ff;
+    color: #333;
+}
+.dark .battle-log-add {
+    border-color: #1a1a1a;
+    background: #222;
+    color: #eee;
+}
+.dark .battle-log-add .textbox {
+    background: #333;
+    border-color: #1a1a1a;
+    border-radius: 0px;
+    color: #eee;
+}
+.dark .battle-log-add .textbox:focus {
+    box-shadow: none !Important;
+    background: #3a3a3a;
+}
+.dark .rightbar,
+.dark .leftbar {
+    background: rgba(53, 53, 53, .65);
+    color: #9999ff;
+    border-color: #333
+}
+.dark .message-error {
+    color: #cc6666
+}
+.dark .battle-controls .button {
+    background: #222;
+    border: 1px solid #1a1a1a;
+    color: #eee;
+    box-shadow: none;
+    border-radius: 0px;
+}
+.dark .battle-controls p button {
+    background: #222;
+    border: 1px solid #1a1a1a;
+    color: #eee;
+    box-shadow: none;
+    border-radius: 0px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.dark .button.disabled,
+.dark .button.disabled:hover,
+.dark .button.disabled:active {
+    background: #2a2a2a;
+    color: #ccc;
+    border-color: #1a1a1a;
+}
+.dark .battle-controls .button:hover,
+.dark .battle-controls button:hover {
+    background: #2a2a2a;
+}
+.dark .timerbutton-on,
+.dark .timerbutton-on:hover {
+    color: #cc6666 !important;
+}
+
+.dark .rightbar .trainersprite::before {
+    content: attr(title);
+    display: block;
+    color: #d9d9d9;
+    font-size: 10px;
+    margin-top: 150px;
+    margin-left: 10px !Important;
+    position: absolute;
+    font-weight: bold;
+}
+.dark .leftbar .trainersprite::before {
+    content: attr(title);
+    display: block;
+    color: #d9d9d9;
+    font-size: 10px;
+    margin-top: 150px;
+    margin-left: 10px !Important;
+    position: absolute;
+    font-weight: bold;
+    transform: scale(-1, 1);
+}
+.dark .turn {
+    background: linear-gradient(to right, transparent, #222, #222, #222, #222, #222, #222, #222, #222, transparent);
+    color: #eee;
+    border: none;
+}
+/*
+* Chat Stuff, includes userlist
+*/
+.dark .userlist {
+    background: rgba(30, 30, 30, .6);
+    border-color: #2a2a2a;
+}
+.dark .userlist li {
+    border-color: #2a2a2a !important;
+}
+.dark .userlist li em.group {
+    color: #9999ff;
+}
+.dark .userlist li button:hover {
+    background: #222;
+}
+.dark .userlist-minimized .userlist-count {
+    background: #222;
+    color: #ccc;
+    border-color: #2a2a2a!important;
+}
+.dark .userlist-minimized .userlist-count:hover {
+    background: #333 !important;
+    color: #ccc!important;
+    border-color: #2a2a2a!important;
+}
+
+.dark .ps-room {
+    border-color: #2a2a2a !important;
+}
+.dark .chat-log .inner {
+    background: rgba(18, 18, 18, .7);
+}
+.dark .chat-log-add {
+    background: #222;
+    border-color: #2a2a2a;
+    color: #eee;
+}
+.dark .chat-log-add .textbox {
+    background: #333;
+    border-color: #1a1a1a;
+    border-radius: 0px;
+    color: #eee;
+}
+.dark .chat-log-add .textbox:focus {
+    box-shadow: none !Important;
+    background: #3a3a3a;
+}
+.dark .chat small {
+    color: #9999ff;
+}
+.dark .greentext {
+    color: #8FD56E;
+}
+.dark .broadcast-blue {
+    background: #2d4052;
+    color: #dee6ed
+}
+.dark .broadcast-green {
+    background: #2d522d;
+    color: #deedde
+}
+.dark .broadcast-red {
+    background: #6d372c;
+    color: #f0dedb
+}
+.dark .chat-log .col.pokemonnamecol a {
+    color: #9999ff;
+    text-decoration: none;
+}
+.dark .chat-log .col.pokemonnamecol a:hover {
+    color: #9999ff;
+    text-decoration: underline;
+}
+.dark .infobox {
+    border-color: #555;
+    padding-bottom: 2px !important;
+}
+/* roomlist stuff */
+.dark .pad .button {
+    background: #222;
+    box-shadow: none;
+    border-color: #2a2a2a;
+}
+.dark .pad .button:hover {
+    background: #333;
+    box-shadow: none;
+    border-color: #2a2a2a;
+}
+.dark .roomlist h2,
+.dark .roomlist h2 {
+    color: #9999ff!important;
+    text-shadow: none!important;
+    font-weight: bold!important;
+}
+.dark .roomlist a.ilink,
+.dark .roomlist a.ilink {
+    background: rgba(50, 50, 50, 0.8) !important;
+    border-color: #343434!important;
+    color: #fff!important;
+    padding: 5px 8px 6px !important;
+    text-shadow: none !important;
+}
+.dark .roomlist a.ilink:hover {
+    background: rgba(35, 35, 35, 0.95) !important;
+    border-color: none!important;
+    color: #fff!important;
+    text-shadow: none !important;
+}
+.dark .roomcounters button {
+    background: #222!important;
+    border-color: #2a2a2a!important;
+    box-shadow: none!important;
+}
+.dark .roomcounters button:hover {
+    background: #333!important;
+    border-color: #2a2a2a!important;
+    box-shadow: none!important;
+}
+.dark .roomcounters .battlecount {
+    margin-right: -20px !important;
+}
+.dark .roomcounters .usercount {
+    margin-left: -20px !important;
+}
+.dark .roomcounters .battlecount,
+.dark .roomcounters .usercount {
+    width: 0px;
+}
+
+/*popup*/
+.dark .ps-popup {
+    background: #1a1a1a;
+    border-color: #2a2a2a;
+    border-radius: 0px;
+    color: #eee;
+}
+.dark .ps-popup button,
+.dark .ps-popup .optlabel select {
+    background: #333;
+    color: #eee;
+    box-shadow: none;
+    border: 1px solid #2a2a2a;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+.dark .ps-popup button:hover,
+.dark .ps-popup .optlabel select:hover {
+    background: #444;
+    color: #eee;
+    box-shadow: none;
+    border: 1px solid #2a2a2a;
+}
+.dark .ps-popup .textbox {
+    background: #333;
+    border-color: #1a1a1a;
+    border-radius: 0px;
+    color: #eee;
+}
+.dark .ps-popup .textbox:hover {
+    border-color: #555;
+}
+.dark .ps-popup .textbox:focus,
+.dark .ps-popup .textbox:active {
+    box-shadow: none !Important;
+    background: #3a3a3a;
+    border-color: #555;
+}
+.dark .ps-popup li button {
+    background: transparent;
+    border: none;
+    border-bottom: 0px solid #444;
+    border-radius: 0px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    color: #eee;
+}
+.dark .ps-popup li button:hover {
+    background: #3a3a3a;
+    border: none;
+    border-bottom: 0px solid #444;
+    border-radius: 0px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    color: #eee;
+}
+.dark .ps-popup .popupmenu h3 {
+    color: #9999ff;
+}
+.dark .ps-popup .sel,
+.dark .ps-popup .sel:hover {
+    background: #444 !important;
+    color: #eee !important;
+    border: none;
+    border-bottom: 1px solid inherit;
+    border-radius: 0px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+.dark .popupmenu .folderButton,
+.dark .popupmenu .folderButtonOpen,
+.dark .popupmenu button.button {
+    background: #333;
+    color: #eee;
+    box-shadow: none;
+    border: 1px solid #2a2a2a;
+}
+.dark .popupmenu .folderButton:hover,
+.dark .popupmenu .folderButtonOpen:hover,
+.dark .popupmenu button.button:hover {
+    background: #444;
+    color: #eee;
+    box-shadow: none;
+    border: 1px solid #2a2a2a;
+}
+.dark .ps-popup input[type=range] {
+    height: 26px;
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 100%;
+}
+.dark .ps-popup input[type=range]:focus {
+    outline: none;
+}
+.dark .ps-popup input[type=range]::-webkit-slider-runnable-track,
+.dark .ps-popup input[type=range]::-webkit-slider-runnable-track:hover {
+    width: 100% !important;
+    height: 6px !important;
+    cursor: pointer !important;
+    box-shadow: none !important;
+    background: #333 !important;
+    border-radius: 14px !important;
+    border: 0px solid #2a2a2a !important;
+}
+.dark .ps-popup input[type=range]::-webkit-slider-thumb {
+    box-shadow: 0px 0px 0px #000000 !important;
+    border: 0px solid #000000 !important;
+    height: 12px !important;
+    width: 20px !important;
+    border-radius: 12px !important;
+    background: #9999ff !important;
+    cursor: pointer !important;
+    -webkit-appearance: none !important;
+    margin-top: -3px !important;
+}
+.dark .ps-popup input[type=range]::-webkit-slider-thumb:hover {
+    box-shadow: 0px 0px 0px #000000 !important;
+    border: 0px solid #000000 !important;
+    height: 12px !important;
+    width: 20px !important;
+    border-radius: 12px !important;
+    background: #7777ff !important;
+    cursor: pointer !important;
+    -webkit-appearance: none !important;
+    margin-top: -3px;
+}
+.dark .ps-popup strong a {
+    color: #9999ff !important;
+    text-decoration: none;
+}
+.dark .ps-popup strong a:hover {
+    color: #9999ff !important;
+    text-decoration: underline;
+}
+.dark .ps-popup .bglist button {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+.dark .ps-popup .bglist strong {
+    background: #222 url("https://i.imgur.com/QHaX9wp.png") bottom left no-repeat!important;
+    background-size: cover!important;
+    padding-top: 22px !important;
+    padding-bottom: 12px !important;
+    color: transparent !important;
+}
+
+/*
+*   TEAMBUILDER
+*/
+.dark .teampane .button,
+.dark .teampane .team,
+.dark .select.formatselect.teambuilderformatselect {
+    background: #222 !important;
+    border-color: transparent;
+    box-shadow: none;
+    color: #eee;
+    border-radius: 0px;
+}
+.dark .teampane .team {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.dark .teampane .button:hover,
+.dark .teampane .team:hover,
+.dark .select.formatselect.teambuilderformatselect:hover {
+    background: #2a2a2a !important;
+    border-color: transparent;
+    box-shadow: none;
+    color: #eee;
+    border-radius: 0px;
+    filter: drop-shadow(0px 0px 1px #333)
+}
+.dark .teampane .button:focused,
+.dark .teampane .team:focused,
+.dark .select.formatselect.teambuilderformatselect:focused {
+    background: #2a2a2a !important;
+    border-color: #1a1a1a !important;
+    box-shadow: none;
+    color: #eee;
+    border-radius: 0px;
+    filter: drop-shadow(0px 0px 1px #333)
+}
+.dark .setchart,
+.dark .setchart-nickname {
+    background: #222;
+    border-color: #444;
+    border-radius: 0px;
+}
+.dark .setchart .textbox.chartinput,
+.dark .setchart-nickname .textbox {
+    background: #222;
+    border-color: #222;
+    border-bottom: 1px solid #666;
+    border-radius: 0px;
+}
+.dark .setchart .textbox.chartinput:focus,
+.dark .setchart-nickname .textbox:focus {
+    background: #333;
+    border-color: #333;
+    border-bottom: 1px solid #666;
+    border-radius: 0px;
+}
+.dark .textbox:focus {
+    box-shadow: none;
+}
+.dark .textbox.setdetails {
+    background: #222;
+    border-color: #222 !important;
+}
+.dark .textbox.setstats {
+    background: #222;
+    border-color: #222;
+}
+.dark .setchart label,
+.dark .setchart-nickname label,
+.dark .setchart .statrow-head em {
+    color: #9999ff;
+    text-shadow: none;
+}
+.dark .utilichart h3,
+.dark .dexentry h3,
+.dark .resultheader h3 {
+    background: #222;
+    color: #9999ff;
+    border-color: #333;
+    text-shadow: none;
+    box-shadow: none;
+}
+.dark .utilichart .sortrow {
+    background: #222;
+    border-color: #333;
+}
+.dark .utilichart .sortcol {
+    color: #9999ff;
+}
+.dark .utilichart .sortcol:hover {
+    background: #333;
+}
+.dark .utilichart .sortcol.numsortcol.cur,
+.dark .utilichart .sortcol.numsortcol.cur:hover,
+.dark .utilichart .sortcol.cur {
+    background: #444;
+}
+.dark .teambuilder-results .result a.cur {
+    background: rgba(50, 50, 50, .4);
+    border-color: #333;
+}
+.dark .teambuilder-results .result a:hover,
+.dark .teambuilder-results .result a.cur:hover {
+    background: rgba(78, 78, 78, .4);
+    border-color: #333;
+}
+.dark .teambar button {
+    background: #222;
+    border-color: #333;
+    color: #eee;
+}
+.dark .teambar button:disabled,
+.dark .teambar button:disabled:hover,
+.dark .teambar button:disabled:active,
+.dark .teambar button:hover {
+    background: #333;
+    color: #eee;
+    border-color: #333;
+}
+.dark .teamwrapper .pad button {
+    background: #222;
+    box-shadow: none;
+    border: 1px solid #2a2a2a;
+    color: #eee;
+}
+.dark .fa.fa-chevron-left {
+    text-shadow: none !important;
+}
+.dark .textbox.teamnameedit,
+.dark .textbox.searchinput {
+    background: #333;
+    border-color: #1a1a1a;
+    border-radius: 0px;
+    color: #eee;
+}
+.dark .textbox.teamnameedit:focus,
+.dark .textbox.searchinput:focus {
+    box-shadow: none !Important;
+    background: #3a3a3a;
+}
+.dark .folderlist .foldersep:before,
+.dark .folderlistafter:before,
+.dark .folderlistbefore:before,
+.dark .folderpane h3,
+.dark .folder .selectFolder,
+.dark .folderhack1,
+.dark .folderhack2 {
+    background: #111;
+    color: #ccc;
+    border-color: #333;
+}
+
+.dark .megaevo {
+    width: 120px !Important;
+    background: none !Important;
+    color: #eee !Important;
+    border: none !Important;
+}
+.dark .megaevo:hover {
+    width: 120px !Important;
+    background: none !Important;
+    color: #eee !Important;
+    border: none !Important;
+}
+.dark .switchmenu button {
+    background: white;
+    box-shadow: none !Important;
+    border-radius: 0px;
+    border: 1px solid #e6e6e6;
+    filter: drop-shadow(0px 0px 1px #111);
+}
+.dark .switchmenu button:hover {
+    background: #e6e6e6;
+    box-shadow: none !Important;
+    border-radius: 0px;
+    border: 1px solid #e6e6e6;
+    filter: drop-shadow(0px 0px 2px #111);
+}
+.dark .switchmenu button {
+    background: #333;
+    box-shadow: none !Important;
+    text-shadow: none;
+    color: #eee;
+    border-radius: 0px;
+    border: 1px solid #222;
+    filter: drop-shadow(0px 0px 1px #111);
+}
+.dark .switchmenu button:hover {
+    background: #222;
+    box-shadow: none !Important;
+    text-shadow: none;
+    color: #eee;
+    border-radius: 0px;
+    border: 1px solid #222;
+    filter: drop-shadow(0px 0px 1px #111);
+}
+
+.dark .switchmenu button.disabled,
+.dark .switchmenu button:disabled,
+.dark .movemenu button:disabled,
+.dark .switchmenu button.disabled:hover,
+.dark .switchmenu button:disabled:hover,
+.dark .movemenu button:disabled:hover {
+    filter: drop-shadow(0px 0px 0px #111);
+}
+.dark .switchmenu button.disabled {
+    color: #d9d9d9 !important;
+    background: #444 !important;
+    border: 1px solid #555 !important;
+}
+}
+</pre>
+</body>
+</html>
