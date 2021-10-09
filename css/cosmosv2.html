@@ -99,6 +99,7 @@ a.ilink.yours {
     padding: 0px;
     width: 24px;
     color: #bdcdff;
+    text-shadow: none;
 }
 .userbar button.icon:hover {
     background: transparent;
@@ -616,7 +617,7 @@ button[name="dismissChallenge"]:hover {
 }
 .ps-popup button,
 .ps-popup .optlabel select {
-    background: #BDCDFF;
+    background-color: #BDCDFF;
     color: #493d45;
     box-shadow: none;
     border: 1px solid #99b3ff;
@@ -627,7 +628,7 @@ button[name="dismissChallenge"]:hover {
 }
 .ps-popup button:hover,
 .ps-popup .optlabel select:hover {
-    background: #99b3ff;
+    background-color: #99b3ff;
     color: #493d45;
     box-shadow: none;
     border: 1px solid #99b3ff;
@@ -763,20 +764,19 @@ button[name="dismissChallenge"]:hover {
     padding-bottom: 12px !important;
     color: transparent !important;
 }
-.ps-popup button, .ps-popup .optlabel select {
-    background-image: no-repeat !important
-}
+
 /*
 *   TEAMBUILDER
 */
 .teampane .button,
 .teampane .team,
 .select.formatselect.teambuilderformatselect {
-    background: #222 !important;
-    border-color: transparent;
+    background: #BDCDFF !important;
+    border-color: #99b3ff;
     box-shadow: none;
-    color: #eee;
+    color: #493d45;
     border-radius: 0px;
+    text-shadow: none;
 }
 .teampane .team {
     overflow: hidden;
@@ -786,126 +786,141 @@ button[name="dismissChallenge"]:hover {
 .teampane .button:hover,
 .teampane .team:hover,
 .select.formatselect.teambuilderformatselect:hover {
-    background: #2a2a2a !important;
-    border-color: transparent;
+    background: #99b3ff !important;
+    border-color: #99b3ff;
     box-shadow: none;
-    color: #eee;
-    border-radius: 0px;
-    filter: drop-shadow(0px 0px 1px #333)
-}
-.teampane .button:focused,
-.teampane .team:focused,
-.select.formatselect.teambuilderformatselect:focused {
-    background: #2a2a2a !important;
-    border-color: #1a1a1a !important;
-    box-shadow: none;
-    color: #eee;
+    color: #493d45;
     border-radius: 0px;
     filter: drop-shadow(0px 0px 1px #333)
 }
 .setchart,
 .setchart-nickname {
-    background: #222;
-    border-color: #444;
+    background: #BDCDFF;
+    border-color: #99b3ff;
     border-radius: 0px;
+    box-shadow: none;
 }
 .setchart .textbox.chartinput,
-.setchart-nickname .textbox {
-    background: #222;
-    border-color: #222;
-    border-bottom: 1px solid #666;
+.setchart-nickname .textbox  {
+    background: #E6E9EB;
+    border-color: #d5dadd;
     border-radius: 0px;
+    color: #111;
+    box-shadow: none;
 }
 .setchart .textbox.chartinput:focus,
-.setchart-nickname .textbox:focus {
-    background: #333;
-    border-color: #333;
-    border-bottom: 1px solid #666;
-    border-radius: 0px;
+.setchart-nickname .textbox:focus,
+.setchart .textbox.chartinput:active,
+.setchart-nickname .textbox:active {
+    box-shadow: none !Important;
+    background: #E6E9EB;
+    color: #000;
+    border-color: #4d79ff
 }
 .textbox:focus {
     box-shadow: none;
 }
 .textbox.setdetails {
-    background: #222;
-    border-color: #222 !important;
+    background: #E6E9EB;
+    border-color: #d5dadd !important;
+    box-shadow: none;
+}
+.setdetails .detailcell {
+    border-color: #d5dadd
 }
 .textbox.setstats {
-    background: #222;
-    border-color: #222;
+    background: #E6E9EB;
+    border-color: #d5dadd !important;
+    box-shadow: none;
 }
 .setchart label,
 .setchart-nickname label,
 .setchart .statrow-head em {
-    color: #9999ff;
+    color: #493d45;
     text-shadow: none;
 }
 .utilichart h3,
 .dexentry h3,
 .resultheader h3 {
-    background: #222;
-    color: #9999ff;
-    border-color: #333;
+    background: #BDCDFF;
+    color: #493d45;
+    border-color: #99b3ff;
     text-shadow: none;
     box-shadow: none;
 }
 .utilichart .sortrow {
-    background: #222;
-    border-color: #333;
+    background: #BDCDFF;
+    border-color: #99b3ff;
+    box-shadow: none;
+    border-top: 1px solid #99b3ff;
+    margin-top: 5px;
 }
 .utilichart .sortcol {
-    color: #9999ff;
+    color: #493d45;
 }
 .utilichart .sortcol:hover {
-    background: #333;
+    background: #99b3ff;
 }
 .utilichart .sortcol.numsortcol.cur,
 .utilichart .sortcol.numsortcol.cur:hover,
 .utilichart .sortcol.cur {
-    background: #444;
+    background: #99b3ff;
 }
 .teambuilder-results .result a.cur {
-    background: rgba(50, 50, 50, .4);
-    border-color: #333;
+    background: rgba(102, 140, 255, .4);
+    border-color: #99b3ff;
+}
+.utilichart .itemdesccol, .utilichart .abilitydesccol, .utilichart .movedesccol {
+    color: #666;
 }
 .teambuilder-results .result a:hover,
 .teambuilder-results .result a.cur:hover {
-    background: rgba(78, 78, 78, .4);
-    border-color: #333;
+    background: rgba(153, 179, 255, .4);
+    border-color: #99b3ff;
 }
 .teambar button {
-    background: #222;
-    border-color: #333;
-    color: #eee;
+    background: #BDCDFF;
+    border-color: #99b3ff;
+    color: #493d45;
 }
 .teambar button:disabled,
 .teambar button:disabled:hover,
 .teambar button:disabled:active,
 .teambar button:hover {
-    background: #333;
-    color: #eee;
-    border-color: #333;
+    background: #99b3ff;
+    color: #493d45;
+    border-color: #99b3ff;
 }
 .teamwrapper .pad button {
-    background: #222;
+    background: #BDCDFF;
     box-shadow: none;
-    border: 1px solid #2a2a2a;
-    color: #eee;
+    border: 1px solid #99b3ff;
+    color: #493d45;
+    margin-top: 6px;
+}
+.teamwrapper .pad button:hover {
+    background: #99b3ff;
+    box-shadow: none;
+    border: 1px solid #99b3ff;
+    color: #493d45;
 }
 .fa.fa-chevron-left {
     text-shadow: none !important;
 }
 .textbox.teamnameedit,
 .textbox.searchinput {
-    background: #333;
-    border-color: #1a1a1a;
+    background: #E6E9EB;
+    border-color: #d5dadd;
     border-radius: 0px;
-    color: #eee;
+    color: #111;
+    box-shadow: none;
 }
 .textbox.teamnameedit:focus,
 .textbox.searchinput:focus {
     box-shadow: none !Important;
-    background: #3a3a3a;
+    background: #E6E9EB;
+    color: #000;
+    border-color: #4d79ff
 }
 .folderlist .foldersep:before,
 .folderlistafter:before,
@@ -914,11 +929,13 @@ button[name="dismissChallenge"]:hover {
 .folder .selectFolder,
 .folderhack1,
 .folderhack2 {
-    background: #111;
-    color: #ccc;
-    border-color: #333;
+    background: #BDCDFF;
+    color: #493d45;
+    border-color: #99b3ff;
 }
-
+.folder .selectFolder:hover {
+    background: #99b3ff;
+}
 .megaevo {
     width: 120px !Important;
     background: none !Important;
@@ -1130,7 +1147,7 @@ button[name="dismissChallenge"]:hover {
     color: #eee;
 }
 .dark .select:disabled {
-    background: rgba(53, 53, 53, .4);
+    background: rgba(53, 53, 53, .4) !important;
     border-color: transparent !important;
 }
 .dark .teamselect:disabled strong {
@@ -1741,8 +1758,9 @@ button[name="dismissChallenge"]:hover {
 .dark .setchart,
 .dark .setchart-nickname {
     background: #222;
-    border-color: #444;
+    border-color: #444 !important;
     border-radius: 0px;
+    color: #eee;
 }
 .dark .setchart .textbox.chartinput,
 .dark .setchart-nickname .textbox {
@@ -1750,6 +1768,7 @@ button[name="dismissChallenge"]:hover {
     border-color: #222;
     border-bottom: 1px solid #666;
     border-radius: 0px;
+    color: #eee
 }
 .dark .setchart .textbox.chartinput:focus,
 .dark .setchart-nickname .textbox:focus {
@@ -1767,7 +1786,7 @@ button[name="dismissChallenge"]:hover {
 }
 .dark .textbox.setstats {
     background: #222;
-    border-color: #222;
+    border-color: #222 !important;
 }
 .dark .setchart label,
 .dark .setchart-nickname label,
